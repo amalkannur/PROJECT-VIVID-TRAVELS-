@@ -18,9 +18,8 @@ import Visa from "./pages/Visa";
 function App() {
   return (
     <div className="App ">
-             <p> Sample Text Dlt Later 2</p>
+     
       <Router>
-        <p> Sample Text Dlt Later </p>
       <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
