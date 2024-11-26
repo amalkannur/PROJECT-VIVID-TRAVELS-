@@ -44,12 +44,11 @@ function Navbar() {
               ></button>
             </div>
             <div className="offcanvas-body">
-              <ul className="list-group">
-                <li className="list-group-item"><Link   to="/home">Home</Link></li>
-                <li className="list-group-item"> <Link   data-bs-dismiss="offcanvas" aria-label="Close" to="/about">About</Link></li>
-                <li className="list-group-item"> <Link target='blank' data-bs-dismiss="offcanvas" aria-label="Close" to="/holidays">Holidays</Link> </li>
-                <li className="list-group-item"> <Link target='blank' data-bs-dismiss="offcanvas" aria-label="Close" className='btn-1' to="/contact">Contact Us</Link> </li>
-              </ul>
+            <div className='nav-items' data-bs-dismiss="offcanvas" aria-label="Close"><Link  to="/home">Home</Link></div>
+            <div className='nav-items' data-bs-dismiss="offcanvas" aria-label="Close"><Link  to="/about">About</Link></div>
+            <div className='nav-items' data-bs-dismiss="offcanvas" aria-label="Close"><Link  to="/holidays">Holidays</Link></div>
+            <div className='nav-items' data-bs-dismiss="offcanvas" aria-label="Close"><Link  to="/visa">Visa</Link></div>
+            <div className='nav-items' data-bs-dismiss="offcanvas" aria-label="Close"><Link  className='btn-1' to="/contact">Contact Us</Link></div>
             </div>
           </div>
         </div>
