@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/PROJECT-VIVID-TRAVELS-/static/css/main.7ae5c877.css",
-    "main.js": "/PROJECT-VIVID-TRAVELS-/static/js/main.e92f7fb8.js",
+    "main.js": "/PROJECT-VIVID-TRAVELS-/static/js/main.8d1058a0.js",
     "static/js/453.d855a71b.chunk.js": "/PROJECT-VIVID-TRAVELS-/static/js/453.d855a71b.chunk.js",
     "static/media/herosec.mp4": "/PROJECT-VIVID-TRAVELS-/static/media/herosec.0814d0362df65429555b.mp4",
     "static/media/dubai-img1.jpg": "/PROJECT-VIVID-TRAVELS-/static/media/dubai-img1.936b1e4c434deb4fd2f1.jpg",
@@ -23,11 +23,11 @@
     "static/media/slick.woff": "/PROJECT-VIVID-TRAVELS-/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/PROJECT-VIVID-TRAVELS-/index.html",
     "main.7ae5c877.css.map": "/PROJECT-VIVID-TRAVELS-/static/css/main.7ae5c877.css.map",
-    "main.e92f7fb8.js.map": "/PROJECT-VIVID-TRAVELS-/static/js/main.e92f7fb8.js.map",
+    "main.8d1058a0.js.map": "/PROJECT-VIVID-TRAVELS-/static/js/main.8d1058a0.js.map",
     "453.d855a71b.chunk.js.map": "/PROJECT-VIVID-TRAVELS-/static/js/453.d855a71b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7ae5c877.css",
-    "static/js/main.e92f7fb8.js"
+    "static/js/main.8d1058a0.js"
   ]
 }
