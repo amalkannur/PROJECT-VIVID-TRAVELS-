@@ -45,10 +45,10 @@ function Navbar() {
             </div>
             <div className="offcanvas-body">
               <ul className="list-group">
-                <li className="list-group-item">Home</li>
-                <li className="list-group-item">About</li>
-                <li className="list-group-item">Services</li>
-                <li className="list-group-item">Contact</li>
+                <li className="list-group-item"><Link target='blank' data-bs-dismiss="offcanvas" aria-label="Close" to="/home">Home</Link></li>
+                <li className="list-group-item"> <Link target='blank'data-bs-dismiss="offcanvas" aria-label="Close" to="/about">About</Link></li>
+                <li className="list-group-item"> <Link target='blank' data-bs-dismiss="offcanvas" aria-label="Close" to="/holidays">Holidays</Link> </li>
+                <li className="list-group-item"> <Link target='blank' data-bs-dismiss="offcanvas" aria-label="Close" className='btn-1' to="/contact">Contact Us</Link> </li>
               </ul>
             </div>
           </div>
