@@ -1,0 +1,185 @@
+$colorWhite : #202124 ;
+$colorBlack : #fafafa ;
+
+
+$color1 : #F9FBFD ;
+$color2 : #D4E9F9 ;
+$color3 : #92C7F0 ;
+$color4 : #4F9CE5;
+$color5 : #357ABD ;
+$color6 : #26557E ;
+$color7 : #173C5A ;
+$color8 : #0A2239 ;
+
+$colorSec1 : #F0BA1A ;
+
+
+$transition250 : all ease-in 250ms ;
+$transition300 : all ease-in 300ms ;
+
+
+*{ 
+    padding: 0;
+    margin: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0 ;
+}
+
+.btn-1{ 
+    padding: 6px 12px; 
+    background-color: $color4;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    border-radius: 2px;
+
+    &:hover{ 
+        background-color: $color2;
+        color: $color6 !important;
+    }
+    &:active{ 
+        background-color: $color2;
+    }
+}
+
+.btn-2{ 
+    margin-top: 6px;
+    transition: $transition250;
+    &:hover{ 
+        background-color: $color1;
+        color: $color5;
+    }
+    &:active{ 
+        color: $color7;
+    }
+}
+
+.Navbar{ 
+    background: $color5;
+    .nav-items{ 
+        padding: 12px;
+        min-width: 100px;
+       
+        a{ 
+            text-decoration: none;
+            color: $color2;
+            transition: $transition250;
+            padding-bottom: 4px;
+            position: relative;
+            font-weight: 600;
+            &:hover{ 
+                color: $color1;
+                &::after{ 
+                    width: 100%;
+                }
+            }
+
+            &::after{ 
+                content: ""; 
+                height: 1px;
+                background-color: $color3;
+                width: 0%; 
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                transition: $transition300;
+            }
+
+
+
+            // &::after{ 
+            //     content: "" ; 
+            //     width: 23px; 
+            //     height: 23px; 
+            //     color: yellow;
+            //     position: absolute;
+            //     top: 0; 
+            //     left: 0; 
+            //     z-index: 222;
+            // }
+        }
+    }
+    .menu-btn{ 
+        padding: 0px 12px ;
+        border-radius: 4px; 
+        border: none; 
+        font-size: 26px;
+        height: 38px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    h3{ 
+        color: $color1;
+        font-weight: 700;
+        padding-left: 12px;
+    }
+}
+
+.Footer{ 
+    background-color: $color5;
+    li{ 
+        color: $color2 !important;
+        list-style: none;
+        font-size: 14px;
+        padding-bottom: 12px;
+        b{ 
+            color: $color2;
+        }
+        a{ 
+            position: relative;
+            padding-bottom: 2px;
+            color: $color2;
+            text-decoration: none;
+            &::after{ 
+                content: ""; 
+                height: 1px;
+                background-color: $color2;
+                width: 0%; 
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                transition: $transition300;
+            }
+
+            &:hover{ 
+                color: $color1;
+                &::after{ 
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    h5{ 
+        color: $color2;
+    }
+    label{ 
+        color: $color2;
+        font-size: 12px;
+    }
+    input{ 
+        background-color: $color5;
+        outline: 0;
+        border: 1px solid $color1;
+        color: $color2;
+        padding: 2px 4px;
+        width: 100%;
+        border-radius: 2px;
+    }
+}
+
+.dateselector{ 
+    border: 0;
+    background: transparent;
+    outline: 0;
+    font-weight: 800;
+}
+
+.Popular-tours{ 
+    .card{ 
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05), 0 2px 4px rgba(0, 0, 0, 0.03);
+    }
+}
