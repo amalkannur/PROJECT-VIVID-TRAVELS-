@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/your-repository-name/static/css/main.c0238144.css",
-    "main.js": "/your-repository-name/static/js/main.e5e7f883.js",
+    "main.js": "/your-repository-name/static/js/main.03e4332c.js",
     "static/js/453.d855a71b.chunk.js": "/your-repository-name/static/js/453.d855a71b.chunk.js",
     "static/media/herosec.mp4": "/your-repository-name/static/media/herosec.0814d0362df65429555b.mp4",
     "static/media/dubai-img1.jpg": "/your-repository-name/static/media/dubai-img1.936b1e4c434deb4fd2f1.jpg",
@@ -23,11 +23,11 @@
     "static/media/slick.woff": "/your-repository-name/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/your-repository-name/index.html",
     "main.c0238144.css.map": "/your-repository-name/static/css/main.c0238144.css.map",
-    "main.e5e7f883.js.map": "/your-repository-name/static/js/main.e5e7f883.js.map",
+    "main.03e4332c.js.map": "/your-repository-name/static/js/main.03e4332c.js.map",
     "453.d855a71b.chunk.js.map": "/your-repository-name/static/js/453.d855a71b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c0238144.css",
-    "static/js/main.e5e7f883.js"
+    "static/js/main.03e4332c.js"
   ]
 }
